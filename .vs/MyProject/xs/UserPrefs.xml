@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{E61FB0FD-F00A-431F-80AA-B330A54679B3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyProject/ViewModels/ContactViewModel.cs">
+    <Files>
+      <File FileName="MyProject/Data/DutchConnect.cs" Line="4" Column="30" />
+      <File FileName="MyProject/Startup.cs" Line="14" Column="1" />
+      <File FileName="MyProject/Program.cs" Line="8" Column="36" />
+      <File FileName="MyProject/config.json" Line="4" Column="2" />
+      <File FileName="MyProject/ViewModels/ContactViewModel.cs" Line="10" Column="34" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Option id="ShowAllFiles" value="True" />
+          <Node name="MyProject" expanded="True">
+            <Node name="MyProject" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="Entities" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="ContactViewModel.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MyProject PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

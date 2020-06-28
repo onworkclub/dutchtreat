@@ -1,0 +1,36 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "HomePage";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Title: @ViewBag.Title </title>
+    <link href="~/css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <header>Welcome to Dutch Treat
+    <menu>
+        <ul>
+            <li><a asp-controller="app" asp-action="Index">Home</a></li>
+            <li><a asp-controller="app" asp-action="Contact">Contact</a></li>
+            <li><a asp-controller="app" asp-action="About">about</a></li>
+        </ul>
+     </menu>
+    </header>
+    <section>
+        <h1>Dutch Treat: @ViewBag.Title</h1>
+        @RenderBody();
+    </section>
+
+
+
+    <footer>Copyright 2020 Dutch Treat</footer>
+    <script src="~/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/scripts.js"></script>
+    @RenderSection("Scripts", false);
+</body>
+</html>
